@@ -3,9 +3,9 @@
 
 This marketplace repository hosts Claude plugins relating to tabletop RPGs, particularly for game masters.
 
-## Getting Started (Claude)
+## Getting Started
 
-### User Scope
+### Claude
 
 #### Add Repo as Marketplace
 
@@ -19,7 +19,7 @@ This marketplace repository hosts Claude plugins relating to tabletop RPGs, part
 /plugin install pf2e-ap@gm-tools
 ```
 
-### Repository Scope
+#### Repository Scope
 
 Set up `.claude/settings.json` in the repository.
 
@@ -35,3 +35,7 @@ Set up `.claude/settings.json` in the repository.
     }
 }
 ```
+
+### Cursor
+
+Coming soon.
