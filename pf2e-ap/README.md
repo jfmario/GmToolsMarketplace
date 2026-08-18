@@ -86,9 +86,28 @@ Other scenes that we might have:
 
 - The "Escape to the Forest" series of scenes
 - The Haunted Settlement
+
+I'm looking for opportunities to bring in our Witch's backstory as well, because I think it might be fun to tie that into the haunted settlement somehow.
 ```
 
 ## Usage
+
+### Initialization
+
+Take the following steps in any case:
+
+- Add all the PDFs of the published adventure to `source/adventure/`.
+- Optionally, add some relevant PDFs to `source/rulebooks/`.
+- Document known devations in markdown files under `deviations/`.
+- If any character sheets exist (preferably FoundryVTT or Pathbuilder exports), place them in `party/<character_name>/` along with files like `background.md` and other files that seem helpful. You can use `party/CLAUDE.md` to document expectations the agent can have about character directories.
+- Optionally, add NPC markdown files to `npcs/`.
+
+If you are initializing a project for a campaign that has been ongoing, take the following steps:
+
+- Gather sessions logs for the last 1-3 sessions and save them as `logs/raw/session-##.md`. If nothing exists, do your best to write a single raw session log for the most recent completed session.
+- Use the `pf2e-ap:clean-logs` skill to create cleaned session logs for each raw log (do this in ascending order).
+
+For both new and legacy campaigns, take the steps in the following section ("Before a Session") and begin the play loop. If you are doing this project on a new campaign, you will skip the `pf2e-ap:recap` call go directly to generated the first prep document with the `pf2e-ap:session-prep` skill. Make sure that the agent is told that this is "Session 0" (or "Session 1" if Session 0 will not or did not include starting scene(s)).
 
 ### Before a Session
 
@@ -105,4 +124,4 @@ Other scenes that we might have:
 
 * Use the `pf2e-ap:clean-logs` skill to create a cleaned session log.
 * Read the log and document any actual deviations from the written adventure that were not already planned.
-* If player options have significantly change (ie, after a level up), re-export their Foundry or Pathbuilder data and replace the JSON file in their character directory under `party/`.
+* If player options have significantly changed (ie, after a level up), re-export their Foundry or Pathbuilder data and replace the JSON file in their character directory under `party/`.
