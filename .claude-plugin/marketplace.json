@@ -1,0 +1,12 @@
+{
+    "name": "gm-tools",
+    "description": "Game Master tools for agentic game support.",
+    "owner": { "name": "John F Marion", "url": "https://github.com/jfmario" },
+    "plugins": [
+        {
+            "name": "pf2e-ap",
+            "source": "./pf2e-ap",
+            "description": "Plugin for Pathfinder 2E Adventure Path campaigns, using an opinionated file structure."
+        }
+    ]
+  }

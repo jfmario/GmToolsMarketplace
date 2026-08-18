@@ -1,0 +1,8 @@
+{
+    "name": "pf2e-ap",
+    "description": "Plugin for Pathfinder 2E Advanced Player's Guide support, using an opinionated file structure.",
+    "version": "0.1.0",
+    "author": {
+        "name": "John F Marion"
+    }
+}
