@@ -53,6 +53,16 @@ Session: 8
 We covered the scene with the dragon from the end of Book 2, Chapter 1 and also the initial mystery from Chapter 2.
 ```
 
+#### Inventory Sources
+
+*Use this skill to generate a README.md index of the `source/` directory.*
+
+The agent will create a README.md listing each PDF in the two `source/` directories along with their roles.
+
+```
+/pf2e-ap:inventory-sources
+```
+
 #### Recap
 
 *Use this skill to create recap ahead of a following session.*
@@ -97,6 +107,7 @@ I'm looking for opportunities to bring in our Witch's backstory as well, because
 Take the following steps in any case:
 
 - Add all the PDFs of the published adventure to `source/adventure/`.
+- Use the `pf2e-ap:inventory-sources` skill to generate `source/README.md`.
 - Optionally, add some relevant PDFs to `source/rulebooks/`.
 - Document known devations in markdown files under `deviations/`.
 - If any character sheets exist (preferably FoundryVTT or Pathbuilder exports), place them in `party/<character_name>/` along with files like `background.md` and other files that seem helpful. You can use `party/CLAUDE.md` to document expectations the agent can have about character directories.
@@ -125,3 +136,4 @@ For both new and legacy campaigns, take the steps in the following section ("Bef
 * Use the `pf2e-ap:clean-logs` skill to create a cleaned session log.
 * Read the log and document any actual deviations from the written adventure that were not already planned.
 * If player options have significantly changed (ie, after a level up), re-export their Foundry or Pathbuilder data and replace the JSON file in their character directory under `party/`.
+* If you add any source PDFs, use the `pf2e-ap:inventory-sources` skill to regenerate `source/README.md`.
