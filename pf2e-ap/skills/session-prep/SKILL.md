@@ -15,6 +15,8 @@ The user will provide:
 - Other scenes that may come up
 - Anticipated player actions or questions
 
+The user may or not provide details on what they are thinking for how to run the scenes including additional deviations or additions to written material.
+
 ## Task
 
 The task is to create a session prep markdown file as `prep/session-{number}.md`. Pad the session number to two digits (ie, 01, 02, etc).
