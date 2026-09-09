@@ -81,7 +81,7 @@ The next upcoming scene (from Book 2, Chapter 1) is the one where the party is a
 
 *Use this skill to generate a session prep document for an upcoming session.*
 
-The agent will write a helpful markdown file for reference during the upcoming session. You should tell the agent which scene you plan to open with and a few more scenes you expect you might need to run. If any of those scenes are not from the AP or documented in `deviations/`, provide as much context as you can. You can also include key session goals you have.
+The agent will write a helpful markdown file for reference during the upcoming session. You should tell the agent which scenes you expect you might need to run. If any of those scenes are not from the AP or documented in `deviations/`, provide as much context as you can. You can also include key session goals you have.
 
 It will include a recap and a helpful GM reference for the indicated scenes, consulting the campaign source material and looking for ties to character strengths, weaknesses, and backstories.
 
@@ -90,12 +90,17 @@ It will include a recap and a helpful GM reference for the indicated scenes, con
 
 Session: 10
 
-We are planning to start with the opening investigation in Chapter 3 of Book 2. We want to make sure our Investigator is able to shine here, as the player is interested in solving these types of things.
+We begin in Chapter 3 of Book 2.
 
-Other scenes that we might have:
+## Opening Investigation
 
-- The "Escape to the Forest" series of scenes
-- The Haunted Settlement
+We want to make sure our Investigator is able to shine here, as the player is interested in solving these types of things.
+
+## The "Escape to the Forest" series of scenes
+
+Run as written. Include tactical notes for the combat encounters.
+
+## The Haunted Settlement
 
 I'm looking for opportunities to bring in our Witch's backstory as well, because I think it might be fun to tie that into the haunted settlement somehow.
 ```

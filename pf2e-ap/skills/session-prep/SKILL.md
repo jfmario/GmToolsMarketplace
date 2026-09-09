@@ -11,11 +11,12 @@ The task is to create a markdown file for the GM to reference during an upcoming
 The user will provide:
 
 - The session number
-- The expected starting scene
-- Other scenes that may come up
-- Anticipated player actions or questions
+- A list of expected scenes to prep
 
-The user may or not provide details on what they are thinking for how to run the scenes including additional deviations or additions to written material.
+For each scene, the user may optionally include:
+
+- Adjustments or deviations from the written adventure for that scene
+- Specific details that must be included in the prep for that scene (this can include anticipated player actions or questions the user wants addressed)
 
 ## Task
 
@@ -32,13 +33,13 @@ When compiling the prep, consider:
 
 For sessions after Session 0, logs can be consulted as well.
 
-Focus on the starting scene, but using user input or the written adventure make sure we consider 2-4 additional scenes.
-
 With the context, create the helpful session prep document with the following:
 
-- If the session is not Session 0, a brief paragraph reminding the players where they are what the current scene is.
-- Scene Guide for the expected scene(s). This should include simplified guidance on running the scene - but scene details aren't needed as the GM has the adventure book. For any encounters, offer guidance on running the enemy tactics.
-- Responses to likely player actions or questions.
+- If the session is not Session 0, a brief paragraph reminding the players where they are and what the current scene is.
+- For each scene the user listed, a scene section with three parts, in this order:
+  1. **Pre-read** - a short prose paragraph describing the scene, for the GM to read ahead of the session (what's happening, why, tone). Full scene details aren't needed here since the GM has the adventure book.
+  2. **Quick reference** - condensed, scannable lookup material for the scene: names, locations, key NPC motivations, relevant DCs/numbers, and for any enemies their key features/abilities and tactical considerations worth having on hand. Do not include full enemy stat blocks - the GM has those in the book.
+  3. **Beat-by-beat** - terse tables or short bullet points walking through the scene's beats in order, meant to be glanced at while running the table, not read as prose. Fold in guidance for any must-include details or anticipated player actions/questions the user flagged for this scene, and enemy tactics notes for encounters.
 
 ## Notes
 
