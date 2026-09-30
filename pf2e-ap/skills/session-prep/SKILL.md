@@ -36,10 +36,9 @@ For sessions after Session 0, logs can be consulted as well.
 With the context, create the helpful session prep document with the following:
 
 - If the session is not Session 0, a brief paragraph reminding the players where they are and what the current scene is.
-- For each scene the user listed, a scene section with three parts, in this order:
+- For each scene the user listed, a scene section with two parts, in this order:
   1. **Overview** - a short prose paragraph describing the scene, for the GM to read ahead of the session (what's happening, why, tone). Full scene details aren't needed here since the GM has the adventure book.
-  2. **Reference** - condensed, scannable lookup material for the scene: names, locations, key NPC motivations, relevant DCs/numbers, and for any enemies their key features/abilities and tactical considerations worth having on hand. Do not include full enemy stat blocks - the GM has those in the book.
-  3. **Outline** - a linear, moment-by-moment walkthrough of the scene, in the order it will actually be run at the table. This is the section the GM follows live, so ordering is the whole point.
+  2. **Outline** - a linear, moment-by-moment walkthrough of the scene, in the order it will actually be run at the table. This is the section the GM follows live, so ordering is the whole point.
      - Format it as a numbered sequence of steps, not a table. Each number is a point in time (a round, a trigger, an obstacle, a beat) in the order it's expected to occur.
      - Each step should say: what triggers it, what the GM does or says, any skill check to call for (with DC) and what happens on success/failure/crit, and any NPC/enemy action that happens at that point.
      - Fold character-specific tactics, vulnerabilities, or ability interactions into the specific step where they'd actually come up (e.g., a PC's vulnerability note belongs inside the round where it matters, not as a separate entry after the fact).
